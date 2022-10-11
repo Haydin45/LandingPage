@@ -1,0 +1,299 @@
+﻿#enUst {
+    font-family: Tahoma;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#liste li a {
+    color: white;
+}
+
+#liste li i {
+    font-size: 5px;
+    transform: translate(0, 60%);
+}
+
+#liste li a:hover {
+    color: #ffd800;
+}
+
+#liste {
+    list-style: none;
+    height: 100px;
+    width: auto;
+    color: #ffd800;
+}
+
+    #liste > li {
+        font-size: 18px;
+    }
+
+nav {
+    opacity: 0.4;
+}
+
+#navbar {
+    line-height: 80px;
+}
+
+#Anasayfa {
+    background-image: url('img/slider.jpg');
+    padding: 0;
+    height: 750px;
+    width: auto;
+}
+
+.slogan {
+    position: absolute;
+    top: 20%;
+    transform: translate(0, 20%);
+    padding: 40px;
+    height: 400px;
+}
+
+.yon {
+    position: relative;
+    top: 94%;
+}
+
+#Hizmetlerimiz {
+    background-image: url('img/background-1.png');
+    height: 600px;
+    width: auto;
+}
+
+.cizgi {
+    font-weight: 900;
+    opacity: 1;
+    color: #ffd800;
+    border: 2px solid #ffd800;
+}
+
+.kutu {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+    .kutu > i {
+        font-size: 55px;
+        margin-top: 35px;
+    }
+
+.aciklama > h5, .aciklama > p {
+    margin-left: 40px;
+}
+
+#Hizmetlerimiz2 {
+    background-image: url('img/how-we-do-it.jpg');
+    height: 450px;
+    width: auto;
+    padding: 0;
+}
+
+#semboller > .col-md-2 > .row > i {
+    font-size: 50px;
+}
+
+.kaplama {
+    width: 100%;
+    height: 100%;
+}
+
+#Portfoy {
+    height: 1050px;
+    width: auto;
+}
+
+.fa-square {
+    font-size: 5px;
+    transform: translate(0, -50%);
+}
+
+#referanslar > span {
+    font-size: 18px !important;
+    margin: 8px;
+}
+
+    #referanslar > span > a:hover {
+        color: #ffd800 !important;
+    }
+
+.portfoyler {
+    width: 16.66%;
+    height: 1%;
+    padding: 0;
+}
+
+    .portfoyler > img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+#Portfoy3 {
+    height: 350px;
+    width: auto;
+}
+
+#Portfoy4 {
+    background-image: url('img/we-are-proud.jpg');
+    background-position-y: center;
+    height: 450px;
+    width: auto;
+    padding: 0;
+}
+
+.dikdortgen {
+    height: 150px;
+    width: 20%;
+    margin-left: 60px;
+}
+
+    .dikdortgen p {
+        font-size: 50px;
+        color: white;
+        margin-top: 10px;
+    }
+
+#Hakkimizda {
+    height: 600px;
+    width: auto;
+}
+
+.sembol {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+    .sembol > i {
+        margin-top: 23%;
+        font-size: 40px;
+    }
+
+#Hakkimizda2 {
+    background-image: url('img/background-1.png');
+    height: 480px;
+    width: auto;
+}
+
+#takim > .col-md-2 {
+    margin-left: 20px;
+}
+
+.Hakkimizda3 {
+    height: 400px;
+    width: auto;
+    padding: 0;
+}
+
+#ustPanel {
+    background-image: url('img/background-1.png');
+    height: 50px;
+    width: auto;
+}
+
+#Hakkimizda4 {
+    background-image: url('img/skills.jpg');
+    height: 440px;
+    width: auto;
+    padding: 0;
+}
+
+.cember {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    border: 5px solid white;
+    border-top: 5px solid yellow;
+    font-size: 0;
+    transform: rotate(45deg);
+}
+
+#Musterilerimiz {
+    height: 500px;
+    width: auto;
+}
+
+.musteri {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+    .musteri:hover {
+        filter: unset;
+    }
+
+#Musterilerimiz2 {
+    background-image: url('img/slider.jpg');
+    background-position-y: center;
+    height: 300px;
+    width: auto;
+    padding: 0;
+}
+
+#Iletisim {
+    height: 400px;
+    width: auto;
+}
+
+#Contact > .col-md-4 > i {
+    font-size: 30px;
+}
+
+#Iletisim2 {
+    background-image: url('img/contact-us.jpg');
+    height: 650px;
+    width: auto;
+    padding: 0;
+}
+
+#form > input {
+    margin: 3% 1% 5% 1%;
+    height: 50px;
+    width: 29%;
+}
+
+footer {
+    height: 200px;
+    width: auto;
+}
+
+    footer > .row > span > a {
+        margin: 10px;
+    }
+
+    footer > .row > .col-md-6 > a {
+        position: relative;
+        top: 53px;
+    }
+
+.sagdanSola {
+    margin-left: 20%;
+    opacity: 0;
+}
+
+.soldanSaga {
+    margin-left: -20%;
+    opacity: 0;
+}
+
+.altiliSoldanSaga {
+    margin-left: -1%;
+    opacity: 0;
+}
+
+.asagidanYukari {
+    margin-top: 5%;
+    opacity: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0;
+    height: 0;
+    text-indent: 0;
+    margin-right: 1.5%;
+}
